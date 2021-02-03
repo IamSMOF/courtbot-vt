@@ -20,6 +20,12 @@ git clone git@github.com:codeforbtv/court-calendars.git
 python3 -m venv env
 source env/bin/activate
 ```
+or on Windows
+```
+python3 -m venv /path/to/new/virtual/environment
+env\Scripts\activate
+```
+
 4. Install packages inside the virtual environment:
 ```
 pip install -r requirements.txt
